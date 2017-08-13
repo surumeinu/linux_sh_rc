@@ -1,5 +1,6 @@
 startup_message off
-tempcapinfo xterm* ti@:te@
+termcapinfo xterm* ti@:te@
 logfile .logfiles/screen_%Y%m%d_%c%s-%n.log
-deflog flush secs
+logfile flush secs
 deflog on
+shell -$SHELL
